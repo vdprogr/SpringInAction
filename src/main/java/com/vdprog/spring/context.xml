@@ -7,6 +7,7 @@
 	<!-- Здесь должны находиться объявления компонентов -->
 
 	<bean id = "duke" class="com.vdprog.spring.Juggler"/>
-
-
+	<bean id = "duke15" class="com.vdprog.spring.Juggler" scope="prototype">
+		<constructor-arg value="15"/>
+	</bean>		
 </beans>
