@@ -9,9 +9,10 @@ public class Main {
 
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("com/vdprog/spring/context.xml");
 
-		Performer performer = (Performer) ctx.getBean("duke15");
+		Performer performer = (Performer) ctx.getBean("poeticduke");
 		performer.perform();
 
+		
 	}
 
 }
